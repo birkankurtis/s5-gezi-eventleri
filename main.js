@@ -42,7 +42,7 @@ CHALLENGE 3:
 const input = document.getElementById("full_name");
 input.addEventListener("input", () => {
   input.value = input.value.toUpperCase();
-  const button =document.querySelector("button");
+  const button = document.querySelector("button");
   if (input.value.length > 5) {
     button.disabled = false;
   } else if (input.value.length <= 5) {
@@ -57,4 +57,13 @@ Form submit edildiğinde (Kaydet butonuna basıldığında):
 - Input alanını temizleyin
 - <button> tekrar disabled hale gelsin
 */
-const yeni = document.getElementById("full_name");
+const form = document.querySelector("form");
+const textarea = document.getElementById("full_name");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const yeniMetin = document.getElementById("submitResult");
+  yeniMetin.textContent = `${textarea.value.toUpperCase()} başarı ile kaydedildi.`;
+  textarea.value = "";
+  const button = document.querySelector("button[type=submit]");
+  button.disabled = true;
+});

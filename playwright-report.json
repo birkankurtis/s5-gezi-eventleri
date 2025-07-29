@@ -1,71 +1,71 @@
 {
   "stats": {
-    "expected": 9,
-    "unexpected": 3,
+    "expected": 12,
+    "unexpected": 0,
     "skipped": 0,
     "flaky": 0,
-    "duration": 6977
+    "duration": 5075
   },
   "tests": [
     {
       "title": "img hover edildiğinde grayscale class eklenmeli",
       "status": "passed",
-      "duration": 945
+      "duration": 894
     },
     {
       "title": "img mouseleave olunca grayscale class silinmeli",
       "status": "passed",
-      "duration": 493
+      "duration": 442
     },
     {
       "title": "1 tuşuna basıldığında body class theme1 olmalı",
       "status": "passed",
-      "duration": 423
+      "duration": 368
     },
     {
       "title": "2 tuşuna basıldığında body class theme2 olmalı",
       "status": "passed",
-      "duration": 534
+      "duration": 311
     },
     {
       "title": "3 tuşuna basıldığında body class theme3 olmalı",
       "status": "passed",
-      "duration": 368
+      "duration": 392
     },
     {
       "title": "Escape tuşuna basıldığında tüm theme classları kaldırılmalı",
       "status": "passed",
-      "duration": 332
+      "duration": 417
     },
     {
       "title": "Inputa yazılan metin büyük harfe dönüşmeli",
       "status": "passed",
-      "duration": 329
+      "duration": 409
     },
     {
       "title": "5 karakterden küçükken buton disabled olmalı",
       "status": "passed",
-      "duration": 286
+      "duration": 377
     },
     {
       "title": "5 karakter ve üzeri yazıldığında buton enabled olmalı",
       "status": "passed",
-      "duration": 427
+      "duration": 342
     },
     {
       "title": "Submit edildiğinde paragraf güncellenmeli",
-      "status": "failed",
-      "duration": 484
+      "status": "passed",
+      "duration": 336
     },
     {
       "title": "Submit sonrası input alanı sıfırlanmalı",
-      "status": "failed",
-      "duration": 1132
+      "status": "passed",
+      "duration": 378
     },
     {
       "title": "Submit sonrası buton disabled olmalı",
-      "status": "failed",
-      "duration": 1225
+      "status": "passed",
+      "duration": 410
     }
   ]
 }

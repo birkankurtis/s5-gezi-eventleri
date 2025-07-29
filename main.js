@@ -39,7 +39,16 @@ CHALLENGE 3:
 - Metin 5 karakterden UZUNSA <button> elementini "enabled" yapın
 - Aksi halde (5 veya daha az karakter) buton "disabled" olmalı
 */
-
+const input = document.getElementById("full_name");
+input.addEventListener("input", () => {
+  input.value = input.value.toUpperCase();
+  const button =document.querySelector("button");
+  if (input.value.length > 5) {
+    button.disabled = false;
+  } else if (input.value.length <= 5) {
+    button.disabled = true;
+  }
+});
 /*
 CHALLENGE 4:
 Form submit edildiğinde (Kaydet butonuna basıldığında):
@@ -48,3 +57,4 @@ Form submit edildiğinde (Kaydet butonuna basıldığında):
 - Input alanını temizleyin
 - <button> tekrar disabled hale gelsin
 */
+const yeni = document.getElementById("full_name");

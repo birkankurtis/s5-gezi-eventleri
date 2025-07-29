@@ -1,71 +1,71 @@
 {
   "stats": {
-    "expected": 6,
-    "unexpected": 6,
+    "expected": 9,
+    "unexpected": 3,
     "skipped": 0,
     "flaky": 0,
-    "duration": 9887
+    "duration": 6977
   },
   "tests": [
     {
       "title": "img hover edildiğinde grayscale class eklenmeli",
       "status": "passed",
-      "duration": 1148
+      "duration": 945
     },
     {
       "title": "img mouseleave olunca grayscale class silinmeli",
       "status": "passed",
-      "duration": 506
+      "duration": 493
     },
     {
       "title": "1 tuşuna basıldığında body class theme1 olmalı",
       "status": "passed",
-      "duration": 356
+      "duration": 423
     },
     {
       "title": "2 tuşuna basıldığında body class theme2 olmalı",
       "status": "passed",
-      "duration": 715
+      "duration": 534
     },
     {
       "title": "3 tuşuna basıldığında body class theme3 olmalı",
       "status": "passed",
-      "duration": 692
+      "duration": 368
     },
     {
       "title": "Escape tuşuna basıldığında tüm theme classları kaldırılmalı",
       "status": "passed",
-      "duration": 376
+      "duration": 332
     },
     {
       "title": "Inputa yazılan metin büyük harfe dönüşmeli",
-      "status": "failed",
-      "duration": 381
+      "status": "passed",
+      "duration": 329
     },
     {
       "title": "5 karakterden küçükken buton disabled olmalı",
-      "status": "failed",
-      "duration": 1060
+      "status": "passed",
+      "duration": 286
     },
     {
       "title": "5 karakter ve üzeri yazıldığında buton enabled olmalı",
-      "status": "failed",
-      "duration": 1000
+      "status": "passed",
+      "duration": 427
     },
     {
       "title": "Submit edildiğinde paragraf güncellenmeli",
       "status": "failed",
-      "duration": 1259
+      "duration": 484
     },
     {
       "title": "Submit sonrası input alanı sıfırlanmalı",
       "status": "failed",
-      "duration": 1253
+      "duration": 1132
     },
     {
       "title": "Submit sonrası buton disabled olmalı",
       "status": "failed",
-      "duration": 1142
+      "duration": 1225
     }
   ]
 }
